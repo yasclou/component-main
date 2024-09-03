@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+.card {
+    margin: auto;
+    margin-top: 80px;
+    background-color: white;
+    font-family: "Red Hat Display", sans-serif;
+    border-radius: 20px;
+    width: 340px;
+    box-shadow: 5px 5px 25px hsla(226, 20%, 34%, 0.29);
+    margin-bottom: 80px;
+}
+
+.info {
+    padding: 20px;
+}
+
+img {
+    width: 340px;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 24px;
+    color: hsl(223, 47%, 23%);
+    padding-bottom: 20px;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 15px;
+}
+
+.mini-card {
+    display: flex;
+    width: 265px;
+    height: 60px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.pricebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 180px;
+}
+
+.mini-card img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.mini-card h5 {
+    font-weight: 900;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+}
+
+.mini-card p {
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    padding: 0;
+}
+
+.mini-card a {
+    font-weight: 900;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    margin-right: 5px;
+}
+
+.mini-card :hover {
+    color: hsl(224, 23%, 55%);
+}
+
+.button1 button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    box-shadow: 5px 5px 15px hsla(226, 20%, 34%, 0.479);
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    border: none;
+    font-size: medium;
+}
+
+.button1 :hover {
+    background-color: hsl(239, 77%, 69%);
+}
+
+.button2 button {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 5px 0 20px 0;
+    font-size: medium;
+}
+
+.button2 :hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution { font-family: "Red Hat Display", sans-serif; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (min-width:376px) {
+    body {
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover 50%;
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        padding: 0px 60px 15px 60px;
+    }
+
+    .button1 button {
+        width: 400px;
+        margin: 10px 50px 20px 50px;
+    }
+
+    .button2 button {
+        padding-bottom: 45px;
+    }
+
+    .mini-card {
+        width: 400px;
+    }
+
+    .mini-card a {
+        margin-right: 15px;
+    }
+}
