@@ -161,8 +161,8 @@ p {
     }
 
     .button1 button {
-        width: 400px;
-        margin: 10px 50px 20px 50px;
+        width: 445px;
+        margin: 10px 30px 20px 30px;
     }
 
     .button2 button {
@@ -170,7 +170,7 @@ p {
     }
 
     .mini-card {
-        width: 400px;
+        width: 420px;
     }
 
     .mini-card a {
